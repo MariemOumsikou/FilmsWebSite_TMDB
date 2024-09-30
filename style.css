@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+    background-color: #333; 
+    color: white;
+}
+
+header p {
+    font-size: 24px;
+    margin: 0;
+    cursor: pointer;
+}
+
+header span {
+    color: #D36A46; 
+}
+
+#search-input {
+    padding: 10px;
+    margin-left: 0px;
+    border-radius: 4px; 
+    width: 500px; 
+}
+
+#search-input ::placeholder{
+    font-style: italic;
+}
+.search-button {
+    padding: 10px 15px;
+    background-color: #D36A46; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+.search-button:hover {
+    background-color: #c65a3c; 
+}
+
+ul {
+    list-style-type: none; 
+    display: flex; 
+    margin: 10px;
+    padding: 0;
+}
+
+ul li {
+    margin-left: 30px; 
+    cursor: pointer; 
+}
+
+ul li:hover {
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
+h2{
+    margin: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#PopularFilmsContainer, #SearchedFilmsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.FilmContainer {
+    width: 15%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.FilmContainer:hover {
+    transform: scale(1.02); 
+}
+
+.FilmImage {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.FilmTitle {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.FilmVote {
+    font-size: 16px;
+    color: #D36A46;
+    margin-top: 5px;
+}
+
+#FilmDetailsContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#FilmImage {
+    width: 80%;
+    max-width: 350px;
+    height: 80%;
+    border-radius: 5px;
+    margin-right: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+#FilmInfo {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+}
+
+#FilmTitle {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: black;
+}
+
+#FilmOverview {
+    font-size: 1.2em;
+    margin: 20px 0;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+
+.FilmType {
+    font-size: 1.1em;
+    font-style: normal;
+    color: white;
+    margin: 5px 0;
+    display: inline-block;
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+button {
+    background-color: #D36A46;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.3em;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #c65a3c;
+}
